@@ -14,7 +14,7 @@ jobs:
           command: |
             # conda env create -q || conda env update -q
             # source activate adj
-            conda install -cy numpy
+            conda install -c conda-forge -y numpy
             conda install -c conda-forge parameterized 
             conda install -qy conda-build anaconda-client pytest pytest-cov
 
